@@ -44,5 +44,6 @@ class Auto {
 let auto = Auto();
 
 for k in 0 ..< 20 {
-    print(auto.cambioDeVelocidad());
+    let velocidad = auto.cambioDeVelocidad();
+    print("\(velocidad.0), \(velocidad.1)");
 }
